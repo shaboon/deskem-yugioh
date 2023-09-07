@@ -1,4 +1,5 @@
 import "./App.css";
+import "./main.css";
 
 import Search from "./components/Search";
 
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <div className="playbox">
         <div className="PlaySpace">
-          <div className="player1">
+          <div className="player1 grid columns-5 grid-rows-4 ">
             <div className="cardspace"></div>
             <div className="cardspace"></div>
             <div className="cardspace"></div>
@@ -20,7 +21,7 @@ function App() {
             <div className="cardspace"></div>
           </div>
           <div className="linkzone"></div>
-          <div className="player2">
+          <div className="player2 grid columns-5 grid-rows-4">
             <div className="cardspace"></div>
             <div className="cardspace"></div>
             <div className="cardspace"></div>
@@ -34,7 +35,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="tracker-Space">
+      <div className="tracker-Space column-1">
         <div className="lp-p1"></div>
         <div className="hand-p1"></div>
         <div className="util">
